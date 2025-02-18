@@ -1,0 +1,17 @@
+{
+  "groups": [
+    {
+      "name": "storage",
+      "type": "com.minhman.config.StorageProperties",
+      "sourceType": "com.minhman.config.StorageProperties"
+    }
+  ],
+  "properties": [
+    {
+      "name": "storage.location",
+      "type": "java.lang.String",
+      "sourceType": "com.minhman.config.StorageProperties"
+    }
+  ],
+  "hints": []
+}
