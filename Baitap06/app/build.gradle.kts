@@ -41,4 +41,13 @@ dependencies {
     androidTestImplementation(libs.ext.junit)
     androidTestImplementation(libs.espresso.core)
     implementation(libs.cardview)
+
+    // Network & Retrofit
+    implementation(libs.retrofit)
+    implementation(libs.retrofit.gson)
+    implementation(libs.okhttp.logging)
+
+    // Load ảnh với Glide
+    implementation(libs.glide)
+    annotationProcessor(libs.glide.compiler)
 }
